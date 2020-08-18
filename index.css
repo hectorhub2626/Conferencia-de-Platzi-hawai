@@ -1,0 +1,122 @@
+
+/* //=====================header=================// */
+#header img {
+    width: 80px;
+}
+
+.text-platzi {
+    color: #97c93e !important;
+}
+
+
+/* //=====================carousel=================// */
+
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+    
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index:2;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+
+    }
+
+.btn-platzi{
+    background-color: #97c93e !important;
+    color:white; 
+}
+
+.btn-platzi:hover{
+    background-color:#82ad36 !important;
+    
+}
+
+/* //===================== oradores del evento=================// */
+
+
+#speakers .container .card {
+    text-align: center;
+    align-items: center;
+
+}
+
+#speakers img {
+    width: 300px; ;
+    height: 300px;
+
+}
+
+
+
+/* //===================== lugar evento=================// */
+
+#place_event .container{
+
+    margin: unset;
+    padding: unset;
+    max-width: 100%;
+}
+#place_event .row {
+
+    margin: unset;
+    ;
+}
+
+
+#place_event .container .row .col-12  {
+    padding: unset;
+}
+
+#place_event .overlay {
+    position: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 4%;
+    height: 100%;
+} 
+.overlaytext{
+height: fit-content;
+
+
+}
+#place_event .container img {
+    max-height: 400px;
+        
+    
+}
+
+/* //======footer======// */
+
+#footer {
+        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+        color:white;
+}
+
+#footer a { 
+    color:white;
+}
+
+
+
